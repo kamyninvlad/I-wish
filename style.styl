@@ -1,0 +1,152 @@
+html
+    width 100%
+    height 100%
+body
+    font-family 'Metropolis', sans-serif
+    background-color #121212
+    width 100%
+    height 100%
+    //font styles
+    #wrapper
+        width 450px
+        margin 0 auto
+        height fit-content
+        padding 75px 0
+        table
+            //table margin
+            margin-bottom 50px
+            //row styles
+            tr
+                th, td
+                    width 100%
+                    padding 50px 50px
+                    background-color #262626    
+            //rounded corners       
+            tr:first-child th:first-child
+                border-top-left-radius 10px
+            tr:first-child th:last-child
+                border-top-right-radius 10px
+            tr:last-child  td:first-child
+                border-bottom-left-radius 10px
+            tr:last-child  td:last-child
+                border-bottom-right-radius 10px
+            //dividers
+            th:first-child, td:nth-child(1)
+                border-bottom 1px dashed #ccccc6
+            tr:last-child td
+                border-bottom none
+            .table-row-heading
+                font-size 30px
+                font-weight 800
+                letter-spacing 1px
+                text-align left
+                color white
+                text-transform uppercase
+            .table-row-header
+                display flex
+                align-items center
+                justify-content space-between
+            tr:nth-child(1)
+                th
+                    .table-row-header
+                        margin-bottom 30px
+            .cards-count
+                color white
+                padding 0px 12px
+                border-radius 15px
+                border 2px solid #25CF5F
+                background-color #325F4C
+                color #25CF5F
+                font-size 13px
+                line-height 28px
+                height 26px
+                letter-spacing 0.4px
+                font-weight 600
+            tr:nth-child(3)
+                .cards-count
+                    border 2px solid #FFAB48
+                    background-color #5B4E42
+                    color #FFAB48
+                    border-radius 6px
+            p
+                font-size 15px
+                font-weight 300
+                color white
+                text-align left
+                line-height 20px
+                font-family 'Opens Sans', sans-serif
+                b
+                    font-weight 600
+                i
+                    font-style italic
+            .table-row-subheading
+                font-family 'Metropolis'
+                font-size 12px
+                height 12px
+                color gray
+                font-weight 600
+                letter-spacing 2px
+                line-height 13px
+                width fit-content
+                margin-bottom 15px
+                text-transform uppercase           
+        a.button
+            display block
+            width fit-content
+            margin 0 auto
+            background-color #1F5EFF
+            border-radius 22px
+            border 2px solid #1F5EFF
+            transition border-color 1s
+            height 34px
+            text-decoration none
+            font-weight 500
+            letter-spacing 0.5px
+            font-size 16px
+            text-align center
+            line-height 16px
+            padding 10px 20px 
+            height 16px
+            color white
+        .button:hover
+            border-color white
+        .inner-container
+            width 100%
+            box-sizing border-box
+            padding 20px 20px
+            background-color rgba(255, 255, 255, 0.05)
+            border-radius 10px
+            height fit-content
+            h3
+                font-size 15px
+                font-weight 600
+                margin-bottom 10px
+                color white
+                text-align left
+        .tip
+            background-color #f6e58d!important
+            h3, p
+                color #262626
+        .outer-container
+            width 100%
+            box-sizing border-box
+            height fit-content
+            padding 20px 20px
+            background-color #262626
+            border-radius 10px
+            margin-bottom 50px
+            .info-box > *
+                margin-bottom 20px
+            .info-field:last-child
+                margin-bottom 0px!important
+            .info-field
+                font-family 'Metropolis', sans-serif
+                .field-name
+                    font-size 12px
+                    color gray
+                .field-value
+                    margin-top 5px
+                    font-size 20px
+                    color white
+                    font-weight 600
+            
