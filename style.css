@@ -126,7 +126,7 @@ body #wrapper table.banks-list .table-row-subheading {
 }
 body #wrapper a.button {
   display: flex;
-  width: fit-content;
+  width: 165px;
   margin: 0 auto;
   background-color: #1f5eff;
   border-radius: 6px;
@@ -144,6 +144,7 @@ body #wrapper a.button {
   color: #fff;
   justify-content: left;
   align-items: center;
+  box-sizing: border-box;
 }
 body #wrapper .button:hover {
   border-color: #fff;
@@ -201,6 +202,8 @@ body #wrapper .outer-container .info-field .field-value {
 body #wrapper .link-and-file {
   padding-top: 40px !important;
   padding-bottom: 40px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
   display: flex;
   justify-content: center;
 }
@@ -212,19 +215,22 @@ body #wrapper .link-and-file p {
   text-align: center;
   font-size: 15px;
   line-height: 20px;
-  padding-bottom: 20px;
 }
 body #wrapper .link-and-file th,
 body #wrapper .link-and-file td {
-  width: 160px;
+  width: 200px;
 }
 body #wrapper .link-and-file th {
   vertical-align: middle;
 }
+body #wrapper .link-and-file td {
+  padding-top: 30px;
+  text-align: center;
+}
 body #wrapper .link-and-file th:first-child,
 body #wrapper .link-and-file td:first-child {
-  padding-right: 30px;
   border-right: 1px dashed #ccccc6;
+  padding-right: 30px;
 }
 body #wrapper .link-and-file th:last-child,
 body #wrapper .link-and-file td:last-child {

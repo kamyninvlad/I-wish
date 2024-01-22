@@ -113,7 +113,7 @@ body
                 text-transform uppercase           
         a.button
             display flex
-            width fit-content
+            width 165px
             margin 0 auto
             background-color #1F5EFF
             border-radius 6px
@@ -131,6 +131,7 @@ body
             color white
             justify-content left
             align-items center
+            box-sizing border-box
         .button:hover
             border-color white
         .inner-container
@@ -175,6 +176,8 @@ body
         .link-and-file
             padding-top 40px!important
             padding-bottom 40px!important
+            padding-left 30px!important
+            padding-right 30px!important
             display flex
             justify-content center
             .table
@@ -184,14 +187,16 @@ body
                 text-align center
                 font-size 15px
                 line-height 20px
-                padding-bottom 20px
             th,td
-                width 160px
+                width 200px
             th
                 vertical-align middle
+            td
+                padding-top 30px
+                text-align center
             th:first-child,td:first-child
-                padding-right 30px
                 border-right 1px dashed #ccccc6
+                padding-right 30px
             th:last-child,td:last-child
                 padding-left 30px
     #wrapper div:last-child
